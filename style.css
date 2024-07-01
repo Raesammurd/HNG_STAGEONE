@@ -99,8 +99,12 @@ section {
 
 @media (max-width: 480px) {
   .about-me{
-    margin-top: 1rem;
-    margin-left: 8rem;
+    margin: 4rem;
+  }
+
+  .goals{
+    width: 75%;
+    margin-left: .9rem;
   }
 }
 
