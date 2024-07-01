@@ -102,7 +102,7 @@ section {
 @media (max-width: 480px) {
   .about-me{
     margin: 6rem;
-    
+    width: 80%;
   }
 
   .goals{
