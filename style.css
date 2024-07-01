@@ -60,6 +60,8 @@ section {
 
 .about-me{
   display: block;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center;
 }
 
 .box {
@@ -99,7 +101,8 @@ section {
 
 @media (max-width: 480px) {
   .about-me{
-    margin: 4rem;
+    margin: 6rem;
+    
   }
 
   .goals{
