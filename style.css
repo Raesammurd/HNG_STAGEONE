@@ -1,0 +1,131 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #f0f0f0;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  background-color: gray;
+  text-align: center;
+  margin: 0 auto;
+  padding: .2rem;
+  width: 60%;
+  margin-top: 3rem;
+  border-radius: 20px;
+}
+
+main>h2{
+  text-align: center;
+}
+
+.about-me>div{
+margin-right: 4rem;
+}
+
+p{
+  font-weight: bold;
+}
+
+p>span{
+  font-weight: 400;
+  color: #f0f0f0;
+  margin-left: .7rem;
+}
+
+ul>li {
+  margin: 0.8rem;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 4rem;
+  margin-bottom: 20px;
+}
+
+.about-me img {
+  width: 100%;
+
+}
+
+.about-me{
+  display: block;
+}
+
+.box {
+  width: 200px;
+}
+
+.goals h2 {
+  text-align: center; 
+  margin-bottom: 1rem; 
+}
+
+
+.resources h2 {
+  text-align: center; 
+  margin-bottom: 1rem; 
+}
+
+.resources ul {
+  padding: 0; 
+  list-style: none; 
+}
+
+.resources li {
+  margin-bottom: 0.5rem; 
+}
+
+.resources a {
+  color: #007bff; 
+  text-decoration: none; 
+  font-weight: bold; 
+}
+
+.resources a:hover {
+  text-decoration: underline; 
+}
+
+
+@media (max-width: 480px) {
+  .about-me{
+    margin-top: 1rem;
+    margin-left: 8rem;
+  }
+}
+
+@media (min-width:481px) and (max-width:600px){
+  .about-me{
+    margin-left: 10rem;
+  }
+}
+
+@media (min-width:601px) and (max-width:700px){
+  .about-me{
+    margin-left: 13rem;
+  }
+}
+
+@media (min-width:701px) and (max-width:900px){
+  .about-me{
+    display: flex;
+  }
+}
+
+@media (min-width:901px) and (max-width:2100px){
+  .about-me{
+    display: flex;
+  }
+}
+
+
